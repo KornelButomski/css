@@ -1,0 +1,190 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<font face="times new roman">
+<textarea cols=90 rows=101><html>
+<head>
+<title>Właściwości czcionek-Butomski</</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <LINK href="buto_z25.css" rel="stylesheet" type="text/CSS">
+</head>
+<body bgcolor="grey">
+<div id="test">
+Kornel Butomski 1P, uklad 1<br>
+</div>
+<div id="test2">
+Akapit 1 - centrowany<br>
+</div>
+rodzina czcionki 1 --> serif<br>
+<br>
+kolory tekstu --> Odcienie koloru żółtego<br>
+<br>
+dekoracja tekstu 3 --> Nadkreślić<br>
+<br>
+styl czcionek 2 --> italic<br>
+<br>
+wariant czcionki --> kapitaliki<br>
+<br>
+grubość czcionek:<br>
+jedno zdanie w tekście 200<br>
+jedno zdanie w tekście 700<br>
+jedno zdanie w tekście 900<br>
+<br>
+rozmiary czcionek:<br>
+jedno zdanie w tekście 2 czyli --> x-small<br>
+jedno zdanie w tekście 4 czyli --> medium<br>
+jedno zdanie w tekście 5 czyli --> large<br>
+<br>
+transformacja tekstu jednego zdania w tekście ma być wyświetlane dużymi literami<br>
+<br>
+wcięcia teskstu: 2 cm<br>
+odstępy między wierszami: 1cm<br>
+odstępy między wyrazami: 12px<br>
+odstępy między literami: 5ex<br>
+<hr color="black">
+Realizacja akapitu 1<br>
+Zdanie 1 --> kapitaliki, grubość czcionek 200, wielkość czcionek x-small<br>
+Zdanie 2 --> nadkreślenie, grubość czcionek 700, wielkość czcionek medium<br>
+Zdanie 3 --> grubość czcionek 900, rodzaj stylu czcionk italic, wielkość czcionek large<br>
+<div id="akapit1_butomski">
+<p class="z1_butomski">Moim zdaniem informatyka to potrzebny przedmiot w szkole.</p>
+<p class="z2_butomski">Dzięki niemu możemy się dowiedzieć więcej na temat komputera i związanych z nim programów.</p>
+<p class="z3_butomski">Aby nawet dostać dobrą pracę musimy potrafić dobrze obsługiwać się komputerem bez tego ani rusz.</p>
+</div>
+<hr color="black">
+<div id="test3">
+Kornel Butomski 1P, uklad 2<br>
+</div>
+<div id="test4">
+Akapit 2 - po prawej<br>
+</div>
+rodzina czcionki 2 --> sans-serif<br>
+<br>
+kolory tekstu --> Odcienie koloru niebieskiego<br>
+<br>
+dekoracja tekstu 2 --> przekreślić<br>
+<br>
+styl czcionek 3 --> oblique<br>
+<br>
+wariant czcionki --> kapitaliki<br>
+<br>
+grubość czcionek:<br>
+jedno zdanie w tekście 300<br>
+jedno zdanie w tekście 600<br>
+jedno zdanie w tekście 800<br>
+<br>
+rozmiary czcionek:<br>
+jedno zdanie w tekście --> 20px<br>
+jedno zdanie w tekście --> 25px<br>
+jedno zdanie w tekście --> 30px<br>
+<br>
+transformacja tekstu jednego zdania w tekście ma mieć wyświetlane każde słowo dużymi literami<br>
+<br>
+wcięcia teskstu: 25mm <br>
+odstępy między wierszami: 14mm<br>
+odstępy między wyrazami: 10pt<br>
+odstępy między literami: 0,5cm<br>
+<hr color="black">
+Realizacja akapitu 2<br>
+Zdanie 4 --> grubość czcionek 300, wielkość czcionek 20px<br>
+Zdanie 5 --> kapitalicki, podkreślony, grubość czcionek 600, wielkość czcionek 25px<br>
+Zdanie 6 --> grubość czcionek 800, rodzaj stylu czcionk oblique, wielkość czcionek 30px<br>
+<div id="akapit2_butomski">
+<p class="z4_butomski">Nawet w życiu codziennym potrzebna jest obsługa komputera.</p>
+<p class="z5_butomski">W tych czasach każdy bowiem ma w domu komputer i każdemu do czegoś innego służy.</p>
+<p class="z6_butomski">Niektórzy choć wiedzą dużo na temat gier czy internetu jak mają jakąś pracę do wykonania nie potrafią tego zrobic.</p>
+</div>
+</body>
+</html></textarea>
+<br>
+<textarea cols=90 rows=86>#akapit1_butomski
+{
+text-align: center;
+font-family: serif;
+text-indent: 2cm;
+line-height: 1cm;
+word-spacing: 1.2;
+letter-spacing: 1.2
+}
+#akapit2_butomski
+{
+text-align: right;
+font-family: sans-serif;
+text-indent: 25mm;
+line-height: 15mm;
+word-spacing: 10pt;
+letter-spacing: 0.5cm
+}
+#test {
+color: red;
+font-size: 1cm;
+text-align: right
+}
+#test2
+{
+text-align: right;
+color: blue;
+font-size: 0.6cm;
+margin-right: 3cm
+}
+#test3
+{
+text-align: right;
+color: red;
+font-size: 1cm
+}
+#test4
+{
+text-align: right;
+color: blue;
+font-size: 0.6cm;
+}
+.z1_butomski
+{
+FONT-VARIANT: unicase;
+font-weight: 200;
+font-size: x-small;
+text-transform: uppercase;
+color: #FFD700;
+}
+.z2_butomski
+{
+font-weight: 700;
+font-size: medium;
+text-decoration: overline;
+color: #F0E68C;
+}
+.z3_butomski
+{
+font-weight: 900;
+font-size: large;
+font-style: italic;
+color: #BDB76B;
+}
+.z4_butomski
+{
+FONT-VARIANT: unicase;
+font-weight: 300;
+font-size: 20px;
+color: #00FFFF;
+}
+.z5_butomski
+{
+font-weight: 600;
+font-size: 25px;
+text-decoration: underline;
+text-transform: capitalize;
+color: #4682B4;
+}
+.z6_butomski
+{
+font-weight: 800;
+font-size: 30px;
+font-style: oblique;
+color: #00008B;
+}</textarea>
+</font>
+</body>
+</html>
