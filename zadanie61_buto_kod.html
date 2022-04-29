@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<font face="times new roman">
+<textarea cols=110 rows=16><html>
+<head>
+<title>Butomski</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <LINK href="zadanie61_buto.css" rel="stylesheet" type="text/CSS">
+</head>
+<body bgcolor="grey">
+Realizacja strony dla arkusza styli (fragment)
+W kodzie strony w celu zróżnicowania rozmiaru czcionki w odnośnikach należy skorzystać z klasy o nazwie maly.
+<ul>
+<li><a href="http://www.zse.gda.pl" class="maly">Portal WP</a></li>
+<li><a href="http://onet.pl">Portal Onet.pl</a></li>
+<li><a href="http://helion.pl">Wydawnictwo Helion</a></li>
+</ul>
+</body>
+</html></textarea><br>
+<textarea cols=60 rows=43>/* Określenie oddzielnego formatowania dla każdego stanu odnośnika. */
+/*Normalne odnosniki*/
+A
+{
+font-size:24pt;
+text-decoration:none;
+}
+A:link
+{
+color:navy;
+}
+A:visited
+{
+color:green;
+}
+A:hover
+{
+color:red;
+text-decoration:underline;
+}
+/*Male odnosniki*/
+A.maly
+{
+font-size: 12pt;
+}
+A.maly:link
+{
+	color:silver;;
+}
+A.maly:visited
+{
+color:yellow;
+}
+A.maly:hover
+{
+color:black;
+text-decoration:none;
+}
+A:active
+{
+color:silver;
+}</textarea>
+</font>
+</body>
+</html>
