@@ -1,0 +1,20 @@
+div
+{
+width: 604px;
+background-color: green;
+}
+div#blok1_butomski:hover
+{
+	background-color: silver;
+	font-size: 18mm;
+}
+div#blok2_butomski:hover
+{
+	background-color: orange;
+	font-size: 18mm;
+}
+div#blok3_butomski:hover
+{
+	background-color: lime;
+	font-size: 18mm;
+}
